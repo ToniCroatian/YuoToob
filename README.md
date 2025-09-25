@@ -1,6 +1,4 @@
-# Official YuoToob Source Code
-
-<p align="center">
+<p align="left">
     <picture>
         <img src="https://github.com/ToniCroatian/YuoToob/blob/main/img/logo.gif" alt="YuoToob">
     </picture>
