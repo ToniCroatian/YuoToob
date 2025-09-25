@@ -10,7 +10,7 @@ if(strpos($_SERVER['HTTP_REFERER'], "www.".$sitedomain) !== false){
   $vidReferer = $siteurl;
 }
 
-if(strpos($_SERVER['HTTP_REFERER'], "66.33.192.247") !== false){
+if(strpos($_SERVER['HTTP_REFERER'], "127.0.0.1") !== false){
   $vidReferer = $siteurl;
 }
 $video = $conn->prepare("SELECT * FROM videos WHERE vid = ? AND converted = 1");
